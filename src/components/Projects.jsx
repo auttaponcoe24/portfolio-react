@@ -4,9 +4,12 @@ import ProjectItem from "./ProjectItem";
 import homepage from "../assets/imgs/toolShop/homepage.png";
 
 import { data } from "../data/mockProject";
+import { imageProject } from "../data/mockProject";
+import { imageChopkin } from "../data/mockImgChopkin";
 
 export default function Projects() {
-	console.log("first =>", data);
+	// console.log("first =>", data);
+	// console.log("imageProject =>", imageProject);
 
 	return (
 		<section
@@ -24,7 +27,11 @@ export default function Projects() {
 					</div> */}
 					{data.map((item, index) => (
 						<div key={item.id} className="col-span-1">
-							<ProjectItem data={item} />
+							<ProjectItem
+								data={item}
+								imageToolShop={imageProject}
+								imageChopkin={imageChopkin}
+							/>
 						</div>
 					))}
 				</div>

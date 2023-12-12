@@ -16,12 +16,19 @@ export default function About() {
 				</h1>
 				<h3 className="font-bold text-xl">Full-Stack Developer</h3>
 				<small className="mt-4">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Id assumenda
-					omnis hic asperiores. Magnam hic, maxime nam doloribus repellat vitae
-					consequatur, dolor vero quo officiis esse nisi nulla iure enim!
+					My name is Auttapon Chucheun. I graduated with a bachelor's degree
+					from the faculty of engineering major in computer Engineer at Prince
+					of Songkhla University. I have got 1 year of experience from Point IT
+					Company in the position of system engineer.
 				</small>
 				<button className="bg-third self-start px-4 py-2 rounded-full text-third mt-6">
-					Read More
+					<a
+						href="https://drive.google.com/file/d/1m3O8xpSOb1Kl2iVi6pxE6gOnBi6eh4F3/view?usp=sharing"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Download Resume
+					</a>
 				</button>
 			</div>
 		</section>
