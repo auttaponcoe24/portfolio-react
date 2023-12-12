@@ -18,13 +18,7 @@ export default function Projects() {
 		>
 			<div className="flex flex-col items-center justify-center gap-10 mx-auto">
 				<h1 className="text-3xl text-primary font-bold">Projects</h1>
-				<div className="grid grid-cols-2 gap-4">
-					{/* <div className="col-span-1">
-						<ProjectItem src={homepage} title={`test`} />
-					</div>
-					<div className="col-span-1">
-						<ProjectItem />
-					</div> */}
+				<div className="grid md:grid-cols-2 grid-cols-1 gap-4">
 					{data.map((item, index) => (
 						<div key={item.id} className="col-span-1">
 							<ProjectItem

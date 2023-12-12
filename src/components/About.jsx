@@ -5,17 +5,17 @@ export default function About() {
 	return (
 		<section
 			id="about"
-			className="min-h-screen bg-secondary py-2 px-[8%] flex justify-between items-center gap-4"
+			className="min-h-screen bg-secondary py-2 px-[8%] flex justify-center md:justify-between items-center md:gap-4"
 		>
-			<div className="w-[350px] h-[500px] rounded-lg overflow-hidden shadow-xl shadow-red-600">
+			<div className="hidden md:flex w-[350px] h-[500px] rounded-lg overflow-hidden shadow-xl shadow-red-600">
 				<img src={Me2} alt="profile" className="w-full h-full object-cover" />
 			</div>
-			<div className="max-w-[60%] text-primary flex flex-col">
-				<h1 className="text-2xl font-bold">
+			<div className="max-w-[100%] md:max-w-[60%] text-primary flex flex-col gap-4 md:gap-0">
+				<h1 className="text-5xl md:text-2xl font-bold">
 					About <span className="text-secondary">Me</span>
 				</h1>
-				<h3 className="font-bold text-xl">Full-Stack Developer</h3>
-				<small className="mt-4">
+				<h3 className="font-bold text-2xl md:text-xl">Full-Stack Developer</h3>
+				<small className="mt-4 text-lg md:text-sm">
 					My name is Auttapon Chucheun. I graduated with a bachelor's degree
 					from the faculty of engineering major in computer Engineer at Prince
 					of Songkhla University. I have got 1 year of experience from Point IT

@@ -64,9 +64,8 @@ export default function ProjectItem({ data, imageToolShop, imageChopkin }) {
 						<DialogBody className="">
 							<Carousel autoplay={true} loop={true} className="rounded-xl">
 								{imageToolShop.map((item, index) => (
-									<div className="h-[400px]">
+									<div className="h-[400px]" key={index}>
 										<img
-											key={index}
 											src={item}
 											alt={`image ${index + 1}`}
 											className="h-full w-full object-contain"
@@ -96,9 +95,8 @@ export default function ProjectItem({ data, imageToolShop, imageChopkin }) {
 						<DialogBody className="">
 							<Carousel autoplay={true} loop={true} className="rounded-xl">
 								{imageChopkin.map((item, index) => (
-									<div className="h-[400px]">
+									<div className="h-[400px]" key={index}>
 										<img
-											key={index}
 											src={item}
 											alt={`image ${index + 1}`}
 											className="h-full w-full object-contain"
