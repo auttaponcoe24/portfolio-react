@@ -20,7 +20,7 @@ export default function ProjectItem({ data, imageToolShop, imageChopkin }) {
 
 	return (
 		<>
-			<Card className="mt-6 w-96 bg-secondary">
+			<Card className="mt-6 w-full bg-secondary ">
 				<CardHeader color="blue-gray" className="relative h-56">
 					<img src={data.profileImage.home} alt="card-image" />
 				</CardHeader>

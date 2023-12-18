@@ -13,9 +13,10 @@ export default function Home() {
 	return (
 		<section
 			id="home"
-			className="min-h-screen bg-primary py-2 px-[8%] flex flex-col-reverse justify-center gap-4 md:flex-row md:justify-between items-center"
+			className="min-h-screen bg-primary py-2 px-[8%] flex flex-col-reverse justify-center gap-4 items-center md:flex-row md:justify-between "
 		>
-			<div className="flex flex-col max-w-[60%] ">
+			{/* <nav className="fixed top-0 left-0 w-full py-2 px-[8%] bg-primary flex justify-between items-center z-40 text-primary"> */}
+			<div className="flex flex-col max-w-[60%]">
 				<h3 className="text-2xl font-bold text-primary">Hello, It's Me</h3>
 				<h1 className="text-5xl font-bold text-primary mt-4">
 					Auttapon Chucheun

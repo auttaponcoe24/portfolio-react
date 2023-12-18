@@ -18,7 +18,7 @@ export default function Navbar() {
 	};
 
 	return (
-		<nav className="fixed top-0 left-0 w-full py-2 px-[8%] bg-primary flex justify-between items-center z-40 text-primary">
+		<nav className=" sticky top-0 left-0  py-2 px-[8%] bg-primary flex justify-between items-center z-40 text-primary">
 			<div className="text-3xl font-semibold cursor-default">Portfolio.</div>
 
 			{nav ? (
